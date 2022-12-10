@@ -1,0 +1,24 @@
+{
+  "name": "vdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile":"babel index.js --out-file compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Htetaungkyaw71/VDom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Htetaungkyaw71/VDom/issues"
+  },
+  "homepage": "https://github.com/Htetaungkyaw71/VDom#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/plugin-transform-react-jsx": "^7.19.0"
+  }
+}
